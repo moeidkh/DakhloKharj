@@ -1,11 +1,10 @@
 import './App.scss'
+import MainPage from './components/MainPage';
 
 function App() {
-  const text = "hello Moeid";
-
   return (
     <div>
-      {text}
+      <MainPage />
     </div>
   )
 }
