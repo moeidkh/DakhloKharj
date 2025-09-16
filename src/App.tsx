@@ -1,9 +1,12 @@
-import './App.css'
+import './App.scss'
 
 function App() {
+  const text = "hello Moeid";
 
   return (
-    <p>hello Moeid</p>
+    <div>
+      {text}
+    </div>
   )
 }
 
