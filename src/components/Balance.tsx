@@ -1,6 +1,8 @@
 const Balance = () => {
   return (
-    <div>Hello Moeid Khoshbaten</div>
+    <div>
+      <div></div>
+    </div>
   )
 }
 
