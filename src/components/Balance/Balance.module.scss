@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: var(--info-dark);
+  border-radius: 1.5rem;
+  padding: 1rem 1.5rem;
+  min-height: 12rem
+}
+
+.title {
+  font-weight: 400;
+  color: var(--text-primary);
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.total {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
