@@ -1,3 +1,4 @@
+import { BellIcon, LogInIcon, UserIcon } from "lucide-react";
 import styles from "./Header.module.scss";
 type PropsType = {
   title?: string,
@@ -9,9 +10,13 @@ const Header = (props: PropsType) => {
     <div className={styles.headerContainer}>
       {
         props.title ?
-          <div className={styles.title}>{props.title}</div> :
+          <div className={styles.hasTitle}>
+            <div className={styles.title}>{props.title}</div>
+            <BellIcon size={24} />
+          </div> :
           <div className={styles.profileContainer}>
-            <div className={styles.profile} id="profile"></div>
+            <UserIcon size={36} />
+            <LogInIcon size={24} />
           </div>
       }
     </div>

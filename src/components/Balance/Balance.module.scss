@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-radius: 1.5rem;
+  padding: 1rem 1.5rem;
+  min-height: 12rem;
+  margin-top: 1rem;
+}
+
+.title {
+  font-weight: 400;
+  color: var(--text-primary);
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.balanceContainer {
+  display: flex;
+  flex-direction: column;
+  column-gap: 0.5rem;
+}
+
+.total {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+.transactionContainer {
+  display: flex;
+  flex-direction: column;
+  
+}

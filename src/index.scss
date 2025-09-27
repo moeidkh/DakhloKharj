@@ -1,0 +1,33 @@
+@plugin "daisyui";
+
+@font-face {
+  font-family: "Nunito";
+  src: url("/public/fonts/Nunito-Regular.ttf");
+}
+
+:root {
+  --background: #222;
+  --background-primary: #2c3333;
+  --background-secondary: #395b64;
+  --text-primary: #e7f6f2;
+  --text-secondary: #a5c9ca;
+  --text-disabled: #a5c9ca;
+  --success: #4ade80;
+  --warning: #facc15;
+  --error: #f87171;
+  --info: #60a5fa;
+  --info-dark: #0d58b5;
+}
+
+body {
+  direction: rtl;
+  background-color: var(--background);
+  color: var(--text-primary);
+  font-family: "Nunito", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* @media (prefers-color-scheme: light) {} */

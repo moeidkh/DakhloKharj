@@ -1,9 +1,9 @@
-import './App.scss'
 import MainPage from './components/MainPage';
+import styles from "./App.module.scss";
 
 function App() {
   return (
-    <div>
+    <div className={styles.container}>
       <MainPage />
     </div>
   )

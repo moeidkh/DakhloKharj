@@ -1,8 +1,11 @@
-import Balance from "./Balance";
+import Header from "./Header/Header";
+import styles from "./mainPage.module.scss";
+import Balance from "./Balance/Balance";
 
 const MainPage = () => {
   return (
-    <div>
+    <div className={styles.container}>
+      <Header title="moeid" />
       <Balance />
     </div>
   )
