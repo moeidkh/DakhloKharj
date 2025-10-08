@@ -12,11 +12,11 @@ const Header = (props: PropsType) => {
         props.title ?
           <div className={styles.hasTitle}>
             <div className={styles.title}>{props.title}</div>
-            <BellIcon size={24} />
+            <BellIcon size={24} className={styles.icon} />
           </div> :
           <div className={styles.profileContainer}>
-            <UserIcon size={36} />
-            <LogInIcon size={24} />
+            <UserIcon size={36} className={styles.icon} />
+            <LogInIcon size={24} className={styles.icon} />
           </div>
       }
     </div>

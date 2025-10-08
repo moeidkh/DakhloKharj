@@ -1,3 +1,4 @@
+import { localizeDigits } from "../../utils/formatter";
 import styles from "./Balance.module.scss";
 
 const Balance = () => {
@@ -5,7 +6,7 @@ const Balance = () => {
     <div className={styles.container}>
       <div className={styles.balanceContainer}>
         <h2 className={styles.title}>ته‌مونده قلک</h2>
-        <span className={styles.total}>530,000,000T</span>
+        <span className={styles.total}>{localizeDigits("530,000,000T")}</span>
       </div>
       <div className={styles.transactionContainer}></div>
     </div>
